@@ -1,5 +1,10 @@
-x = "hello" 
-y = " world"
+y = "y"
+while y == "y":
+    x = input() 
 
 
-print(x + y + "!")
+    if x == "hello":
+        print("hello")
+    else:
+        print("goodbye")
+        y = "n"
